@@ -41,9 +41,8 @@ public class TareaViewModel extends ViewModel {
         cargarTareas();
     }
 
-    // Método de guardado que puedes utilizar si lo necesitas en el futuro
     public void guardarTarea(Tarea tarea) {
-        baseDatosTareas.agregarTarea(tarea); // Método correcto
+        baseDatosTareas.agregarTarea(tarea);
         cargarTareas();
     }
 }

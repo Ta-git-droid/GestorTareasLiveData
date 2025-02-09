@@ -164,7 +164,7 @@ public class BaseDatosTareas extends SQLiteOpenHelper {
             db.close();  // Cerrar la base de datos
         }
 
-        return filasActualizadas;  // Retornar el número de filas afectadas
+        return filasActualizadas;
     }
 
 }
